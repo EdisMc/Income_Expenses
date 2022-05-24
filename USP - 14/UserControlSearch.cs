@@ -69,7 +69,6 @@ namespace USP___14
             }
         }
 
-
         private void flatButtonCreateRevenue_Click(object sender, EventArgs e)
         {
             string conString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\edy_d\\OneDrive\\Documents\\svssystem.mdf;Integrated Security=True;Connect Timeout=30";

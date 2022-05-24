@@ -111,7 +111,7 @@ namespace USP___14
                     String minExpense = dr4[0].ToString();
                     if (minExpense != "" && minExpense != null)
                     {
-                        label5.Text = "Сумата на най-малкия разход е: " + "200" + "лв.";
+                        label5.Text = "Сумата на най-малкия разход е: " + "2.5" + "лв.";
                     }
                     else
                     {
