@@ -20,6 +20,7 @@ namespace USP___14
 
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
+            //db queries
             SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\edy_d\OneDrive\Documents\svssystem.mdf;Integrated Security=True;Connect Timeout=30");
             con.Open();
             SqlCommand cmdzs = new SqlCommand("SELECT MAX(Suma_DB) FROM USP14_Table WHERE Tip_DB = 'Приход'", con);
@@ -99,7 +100,7 @@ namespace USP___14
             cmdzs3.Connection.Close();
 
             con.Open();
-            SqlCommand cmdzs4 = new SqlCommand("SELECT MIN(Suma_DB) FROM USP14_Table WHERE Tip_DB = 'Разход'", con);
+            SqlCommand cmdzs4 = new SqlCommand("SELECT MIN(Suma_DB) FROM USP14_Table WHERE Tip_DB = 'Разход'", con); //min 
             con.Close();
             cmdzs4.CommandType = CommandType.Text;
             cmdzs4.Connection.Open();

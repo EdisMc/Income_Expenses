@@ -33,6 +33,7 @@ namespace USP___14
             int nHeightEllipse // width of ellipse
         );
 
+        //form
         public Form1()
         {
             InitializeComponent();
@@ -81,6 +82,7 @@ namespace USP___14
 
         private void flatButton1_Click(object sender, EventArgs e)
         {
+            //add income
             USExpense.Hide();
             USserch.Hide();
             USstatistics.Hide();
@@ -91,6 +93,7 @@ namespace USP___14
 
         private void flatButtonCreareExpense_Click(object sender, EventArgs e)
         {     
+            //add expense
             USRevenue.Hide();
             USserch.Hide();
             USstatistics.Hide();
@@ -101,6 +104,7 @@ namespace USP___14
 
         private void flatButtonSearch_Click(object sender, EventArgs e)
         {
+            //search
             USRevenue.Hide();
             USExpense.Hide();
             USstatistics.Hide();
@@ -110,7 +114,9 @@ namespace USP___14
         }
 
         private void flatButtonStatistics_Click(object sender, EventArgs e)
-        {          USRevenue.Hide();
+        {   
+            //reference
+            USRevenue.Hide();
             USExpense.Hide();
             USserch.Hide();
             USstatistics.Show();

@@ -8,6 +8,7 @@ namespace USP___14
 {
     class DataBaseClass
     {
+        //db class
         private string Suma;
         private string Data;
         private string Opisanie;
