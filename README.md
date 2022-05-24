@@ -1,1 +1,1 @@
-USP - 14
+SPM - project "Incomes/Expenses management system(14t.)
