@@ -18,6 +18,7 @@ namespace USP___14
 
         public DataBaseClass(string Suma, string Data, string Opisanie, string Tip, string Kategoria, string Mesec)
         {
+            //constructor for db
             this.Suma = Suma;
             this.Data = Data;
             this.Opisanie = Opisanie;
@@ -25,6 +26,8 @@ namespace USP___14
             this.Kategoria = Kategoria;
             this.Mesec = Mesec;
         }
+
+        //setters and getters for variables of db
 
         public void setSuma(string Suma)
         {

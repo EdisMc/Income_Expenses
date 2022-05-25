@@ -66,6 +66,7 @@ namespace USP___14
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //form1_load
             this.FormBorderStyle = FormBorderStyle.None;
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 15, 15));
         }
