@@ -37,7 +37,7 @@ The "Income and Expenses Tracking System" must provide the following capabilitie
     ~Option to select a month.
 
     
-![image](https://github.com/EdisMc/Income_Expenses/assets/92871901/90e1537d-4818-42f9-8f38-68f90e11f837)
+![image](https://github.com/EdisMc/Income_Expenses/assets/92871901/2144a838-c64e-4096-b82a-f466c0a647dc)
 ![image](https://github.com/EdisMc/Income_Expenses/assets/92871901/f2b2cdf5-c49b-4d05-ae0b-bc9d0f2523bf)
 
   -Module for Generating Reports:
